@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Setor Data</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#050505;
+padding:20px;
+color:white;
+}
+
+.container{
+max-width:500px;
+margin:auto;
+}
+
+.top{
+background:#101010;
+padding:25px;
+border-radius:28px;
+border:1px solid #1f1f1f;
+margin-bottom:20px;
+position:relative;
+overflow:hidden;
+}
+
+.glow{
+position:absolute;
+width:200px;
+height:200px;
+background:#25D366;
+filter:blur(120px);
+opacity:0.15;
+top:-80px;
+right:-80px;
+}
+
+.top h1{
+position:relative;
+z-index:2;
+font-size:32px;
+}
+
+.top p{
+position:relative;
+z-index:2;
+color:#aaa;
+margin-top:10px;
+line-height:1.6;
+}
+
+.card{
+background:#101010;
+padding:22px;
+border-radius:25px;
+border:1px solid #1f1f1f;
+margin-bottom:20px;
+}
+
+.title{
+font-size:22px;
+margin-bottom:18px;
+}
+
+.input{
+width:100%;
+padding:18px;
+background:#171717;
+border:none;
+border-radius:18px;
+margin-bottom:15px;
+color:white;
+font-size:15px;
+}
+
+select{
+width:100%;
+padding:18px;
+background:#171717;
+border:none;
+border-radius:18px;
+margin-bottom:15px;
+color:white;
+font-size:15px;
+}
+
+.button{
+width:100%;
+padding:18px;
+background:#25D366;
+border:none;
+border-radius:18px;
+font-weight:bold;
+font-size:16px;
+color:black;
+}
+
+.info{
+padding:18px;
+background:#171717;
+border-radius:18px;
+line-height:1.7;
+color:#ccc;
+margin-top:15px;
+}
+
+.footer{
+text-align:center;
+margin-top:20px;
+color:#666;
+padding-bottom:30px;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top">
+
+<div class="glow"></div>
+
+<h1>Setor Data</h1>
+
+<p>
+Masukkan data WhatsApp dan pembayaran untuk memulai proses.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2 class="title">
+📱 Form Setor
+</h2>
+
+<input type="text" class="input" placeholder="Nomor WhatsApp">
+
+<select>
+<option>Pilih E-Wallet</option>
+<option>Dana</option>
+<option>OVO</option>
+<option>GoPay</option>
+<option>ShopeePay</option>
+<option>SeaBank</option>
+<option>Lainnya</option>
+</select>
+
+<input type="text" class="input" placeholder="Nomor E-Wallet">
+
+<input type="text" class="input" placeholder="Nama Pemilik E-Wallet">
+
+<button class="button">
+KIRIM DATA
+</button>
+
+<div class="info">
+Pastikan semua data sudah benar sebelum dikirim ke admin.
+</div>
+
+</div>
+
+<div class="footer">
+© 2025 SEWA WA PANEL
+</div>
+
+</div>
+
+</body>
+</html>
