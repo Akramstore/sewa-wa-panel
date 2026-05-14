@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daftar Akun</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#050505;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+color:white;
+}
+
+.box{
+width:100%;
+max-width:420px;
+background:#101010;
+padding:30px;
+border-radius:30px;
+border:1px solid #1f1f1f;
+}
+
+h1{
+font-size:35px;
+margin-bottom:10px;
+}
+
+p{
+color:#aaa;
+margin-bottom:25px;
+line-height:1.6;
+}
+
+.input{
+width:100%;
+padding:18px;
+margin-bottom:15px;
+background:#181818;
+border:none;
+border-radius:18px;
+color:white;
+font-size:15px;
+}
+
+.button{
+width:100%;
+padding:18px;
+background:#25D366;
+border:none;
+border-radius:18px;
+font-weight:bold;
+font-size:16px;
+margin-top:10px;
+}
+
+.link{
+text-align:center;
+margin-top:20px;
+color:#aaa;
+}
+
+.link a{
+color:#25D366;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Daftar</h1>
+
+<p>
+Buat akun untuk masuk ke sistem SEWA WA PANEL.
+</p>
+
+<input type="text" class="input" placeholder="Nama Lengkap">
+
+<input type="text" class="input" placeholder="Nomor WhatsApp">
+
+<input type="password" class="input" placeholder="Password">
+
+<button class="button" onclick="window.location.href='dashboard.html'">
+DAFTAR SEKARANG
+</button>
+
+<div class="link">
+Sudah punya akun?
+<a href="login.html">Login</a>
+</div>
+
+</div>
+
+</body>
+</html>
