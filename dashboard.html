@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard User</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#050505;
+padding:20px;
+color:white;
+}
+
+.container{
+max-width:500px;
+margin:auto;
+}
+
+.top{
+background:#101010;
+padding:25px;
+border-radius:28px;
+border:1px solid #1f1f1f;
+margin-bottom:20px;
+position:relative;
+overflow:hidden;
+}
+
+.glow{
+position:absolute;
+width:200px;
+height:200px;
+background:#25D366;
+filter:blur(120px);
+opacity:0.15;
+top:-80px;
+right:-80px;
+}
+
+.top h1{
+position:relative;
+z-index:2;
+font-size:32px;
+}
+
+.top p{
+position:relative;
+z-index:2;
+color:#aaa;
+margin-top:10px;
+line-height:1.6;
+}
+
+.status{
+display:inline-block;
+padding:10px 15px;
+background:#132118;
+color:#25D366;
+border-radius:999px;
+font-size:13px;
+font-weight:bold;
+margin-top:15px;
+position:relative;
+z-index:2;
+}
+
+.card{
+background:#101010;
+padding:22px;
+border-radius:25px;
+border:1px solid #1f1f1f;
+margin-bottom:20px;
+}
+
+.title{
+font-size:22px;
+margin-bottom:15px;
+}
+
+.queue{
+padding:18px;
+background:#171717;
+border-radius:18px;
+margin-bottom:12px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.queue h2{
+color:#25D366;
+}
+
+.info{
+padding:18px;
+background:#171717;
+border-radius:18px;
+line-height:1.7;
+color:#ccc;
+margin-top:15px;
+}
+
+.button{
+display:block;
+width:100%;
+padding:18px;
+background:#25D366;
+border-radius:18px;
+text-align:center;
+font-weight:bold;
+color:black;
+text-decoration:none;
+margin-top:15px;
+border:none;
+font-size:16px;
+}
+
+.secondary{
+background:#1b1b1b;
+color:white;
+border:1px solid #2c2c2c;
+}
+
+.footer{
+text-align:center;
+margin-top:20px;
+color:#666;
+padding-bottom:30px;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top">
+
+<div class="glow"></div>
+
+<h1>Halo Member 👋</h1>
+
+<p>
+Selamat datang di dashboard SEWA WA PANEL.
+Semua status akun dan pembayaran akan tampil di sini.
+</p>
+
+<div class="status">
+🟢 AKUN AKTIF
+</div>
+
+</div>
+
+<div class="card">
+
+<h2 class="title">
+📌 Status Akun
+</h2>
+
+<div class="queue">
+<p>Status</p>
+<h2>Pending</h2>
+</div>
+
+<div class="queue">
+<p>Nomor Antrean</p>
+<h2>#012</h2>
+</div>
+
+<div class="queue">
+<p>Status Pembayaran</p>
+<h2>Manual</h2>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2 class="title">
+💰 Profit
+</h2>
+
+<div class="queue">
+<p>5 Menit</p>
+<h2>10K</h2>
+</div>
+
+<div class="queue">
+<p>10 Menit</p>
+<h2>20K</h2>
+</div>
+
+<div class="queue">
+<p>15 Menit</p>
+<h2>30K</h2>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2 class="title">
+📢 Informasi
+</h2>
+
+<div class="info">
+Pembayaran dilakukan manual langsung kepada admin setelah proses selesai.
+</div>
+
+<a href="https://wa.me/6281234567890" class="button">
+HUBUNGI ADMIN
+</a>
+
+<button class="button secondary">
+REQUEST CODE ULANG
+</button>
+
+</div>
+
+<div class="footer">
+© 2025 SEWA WA PANEL
+</div>
+
+</div>
+
+</body>
+</html>
